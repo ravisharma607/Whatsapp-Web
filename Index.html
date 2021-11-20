@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f66bb64b37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Whatsapp Web</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftside">
+            <!-- Header -->
+            <div class="header">
+                <div class="userimg">
+                    <img src="/images/dp.jpg" class="cover">
+                </div>
+                <div class="nav_icon">
+                    <li>
+                        <ion-icon name="scan-circle-outline"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="chatbox"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </li>
+                </div>
+            </div>
+            <!-- Search -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="search or start new chat">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </div>
+
+            <!-- Chat List -->
+            <div class="chatlist" id="active_onclick">
+                    <div class="chat_block active">
+                        <div class="imgbx">
+                            <img src="/images/img1.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>David Warner</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block unread">
+                        <div class="imgbx">
+                            <img src="/images/img2.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Hardik Pandya</h4>
+                                <p class="time">2:10</p>
+                            </div>
+                            <div class="message_p">
+                                <p>Often we think about what's actually goes behind the scene</p>
+                                <b>2</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block unread">
+                        <div class="imgbx">
+                            <img src="/images/img3.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Scarlett Johansson</h4>
+                                <p class="time">10:18</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy Stupid. i really really loved your status which has been for a .</p>
+                                <b>1</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img4.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Dani Daniel</h4>
+                                <p class="time">09:55</p>
+                            </div>
+                            <div class="message_p">
+                                <p>common! baby where are you busy now .i am waiting for the.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img5.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Allu Arjun</h4>
+                                <p class="time">Yesterday</p>
+                            </div>
+                            <div class="message_p">
+                                <p>In our industry with our production house.that are just for..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img6.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Steve Smith</h4>
+                                <p class="time">Yesterday</p>
+                            </div>
+                            <div class="message_p">
+                                <p>behind our practice with our coach that only just for to perform..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img8.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Kane Williamson</h4>
+                                <p class="time">04/10/2021</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                                <b>1</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img7.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Maly Lucy</h4>
+                                <p class="time">04/09/2020</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                                <b>5</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img9.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Nortaha Jon</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img6.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Lerry Kown</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img4.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Marry down</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img8.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Hit Nathan</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat_block">
+                        <div class="imgbx">
+                            <img src="/images/img2.jpg" alt="" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listhead">
+                                <h4>Lolam John</h4>
+                                <p class="time">10:56</p>
+                            </div>
+                            <div class="message_p">
+                                <p>heyy dude what's going on. i have waited for a cofee with you..</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="rightside">
+            <div class="header">
+              <div class="imgtxt">
+                <div class="userimg">
+                    <img src="/images/img1.jpg" class="cover">
+                </div>
+                <h4>David Warner <br> <span>online</span></h4>
+              </div>
+                <div class="nav_icon">
+                    <li>
+                        <ion-icon name="search-outline"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </li>
+                </div>
+            </div>
+            <!-- chat box -->
+            <div class="chatbox">
+                <div class="message my_message">
+                    <p>Hi<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat possimus excepturi? adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor sit, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore eum delectus iusto? Tenetur? amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, Lorem ipsum dolor sit amet. amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde omnis obcaecati! amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Lorem ipsum dolor, amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Maza Aya &#128515; <br><span>12:15</span></p>
+                </div>
+            </div>
+              <!-- chat message -->
+        <div class="chat_input">
+            <ion-icon name="happy-outline"></ion-icon>
+            <ion-icon name="attach-outline"></ion-icon>
+            <input type="text" placeholder="Type a message">
+            <ion-icon name="mic"></ion-icon>
+        </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/Script.js"></script>
+</body>
+
+</html>
